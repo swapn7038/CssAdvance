@@ -1,0 +1,21 @@
+.main{
+  /* 
+  border :  2px solid | dashed | dotted  / color code ; 
+  */
+border: 5px dotted  rgb(0, 0, 0);
+width: 100px;
+height: 20px;
+/* border-radius: 50%; */
+}
+
+.main1{
+    margin: 10px 0px;
+    padding: 0px;
+    height: 20px;
+    width: 150px;
+    border-bottom: 2px dashed black;
+    /* border-top: 2px dashed black; */
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
