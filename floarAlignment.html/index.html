@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Alignment</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4em;
+             }
+
+        .container{
+            background-color: rgb(197, 233, 233);
+            max-width: 700px;
+            margin: 30px auto;
+            /* padding: 10px; */
+            /* margin-bottom: 10px; */
+            /* min-height: 1vh; */
+        }
+
+
+        .clr{
+            clear: both;
+        }
+
+        .box{
+            background: grey;
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 10px;            
+        }
+
+        .box p{
+                /* text align prop */
+                /* text-align: left; */
+                /* text-align: center; */
+                /* text-align: right; */
+                text-align: justify;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+
+            #box-2{
+                float: left;
+                width: 68%;
+            }
+            
+            #box-3{
+                float: right;
+                width: 30%;
+                /* height: 200px; */
+            }
+            
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="box-1" class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veritatis, repellendus laboriosam pariatur quisquam voluptatum consequuntur! Nisi ullam iusto vel.</p>
+        </div>
+
+        <div id="box-2" class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veritatis, repellendus laboriosam pariatur quisquam voluptatum consequuntur! Nisi ullam iusto vel.</p>
+        </div>
+
+
+        <div id="box-3" class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veritatis, repellendus laboriosam pariatur quisquam voluptatum consequuntur! Nisi ullam iusto vel.</p>
+        </div>
+
+
+        <div class="clr"></div>
+
+        <div id="box-4" class="box">
+            <h3>Heading</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veritatis, repellendus laboriosam pariatur quisquam voluptatum consequuntur! Nisi ullam iusto vel.</p>
+        </div>
+    </div>
+</body>
+</html>
